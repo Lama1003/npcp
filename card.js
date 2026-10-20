@@ -3,9 +3,12 @@
 
   const STORAGE_KEY = 'flower.greeting.20-10.v1';
   const defaultGreeting = {
-    recipient: 'bạn',
-    message: 'Nhân ngày Phụ nữ Việt Nam 20/10, chúc bạn luôn khỏe mạnh, bình an và có thật nhiều niềm vui.\n\nMong bạn được yêu thương từ những điều nhỏ nhất, có thời gian cho bản thân và tự tin theo đuổi những điều mình mong muốn.\n\nHôm nay và cả những ngày sau, hãy luôn mỉm cười theo cách của riêng bạn nhé.',
-    sender: 'Một người quý mến bạn'
+  title: "20 / 10",
+  greeting: "Gửi npcp =)),",
+  mainMessage: "May beautiful things always blossom around u.",
+  subMessage1: "Một bông hoa có thể làm một ngày thêm đẹp.",
+  subMessage2: "Nhân ngày 20/10, chúc en nờ pê cê luôn được yêu thương, trân trọng và luôn luôn vui tươi, tràn đầy hạnh phúc, vui vẻ, niềm vui trong cuộc sống.",
+  signature: "skibidi"
   };
   const dialog = document.getElementById('greetingCard');
   const openButton = document.getElementById('openCard');
